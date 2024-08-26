@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            <style> h1 {
+                    color: rgba(223, 107, 107, 0.938);
+                    font-size: 12px;
+                }
+            </style>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta name="viewport" content="width=device-width, user-scalable=no">
+           <h1>Udhaya Neduchezhiyan's Portfolio</h1> 
+        </title>
+    </head>
+    <body>
+        <style>
+            h2 {
+                color: rgb(116, 31, 116);
+                font-size: 38px;
+                text-align: center;
+            }
+            section{
+                padding: 20px;
+                margin: 20px;
+                background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background to enhance readability */
+            }/* Set the background image for the entire page */
+            body {
+                background-image: url('https://res.cloudinary.com/cassyni/image/upload/q_auto/f_auto/v1/user-files/JR2pzyXUp6RfX2NYMBaFYS?_a=DAJAUVWIZAAB');
+                background-size: cover; /* Cover the entire area */
+                background-position: center; /* Center the image */
+                background-repeat: no-repeat; /* Prevent the image from repeating */
+                background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and transparency */
+            }
+            @media (max-width: 800px) {
+                /*CSS ruleset*/
+            }
+            .topnav .icon {
+                display: none;
+            }
+            /* When the screen is less than 600 pixels wide, hide all links. Show the icon that should open and close the nav (.icon) */
+            @media only screen and (max-width: 600px) {
+                .topnav a {display: none;}
+                .topnav a.icon {
+                    float: right;
+                    display: block;
+                }
+            }
+            /* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+            @media only screen and (max-width: 600px) {
+                .topna.responsive {
+                    position: fixed;
+                }
+                .topnav.responsive a.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+            }
+        </style>
+        <h2>Udhaya Nedunchezhiyan</h2>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="#contact">Contact</a>
+            <a href="#accomplishments">Accomplishments</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+        </nav>
+        <!--About Section-->
+         <div id="aboutsection">
+            <style>
+                img {
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 100%;
+                    height: auto;
+                    border: 3px solid rgb(80, 34, 34);
+                    border-radius: 200px;
+                    border: circle
+                }
+            </style>
+            <img src="u:\Research\Projects\ihbi\regenerativemedicine\crl_general\Udhaya\E grad_Intro for Coding\Udhaya Nedunchezhiyan.JPG" width="350" height="200" alt="Udhaya is sitting on the chair and thinking about next step for her IF optimization protocol"/>
+            <h3>About</h3>
+            <style>
+            h3 {
+                color: rgb(39, 3, 39);
+                font-size: 28px;
+            }
+            p {
+                color: rgb(5, 44, 66);
+                font-size: 20px;
+                padding: 150px 10px 5px 15px 20px;
+                font: bold;
+            }
+            </style> 
+            <p>I am a <strong>Molecular Biologist</strong> with a strong background in regenerative medicin. I am dedicated and passionate researcher currently pursuing a <em>Doctor of Philosophy</em> Queensland University of Technology, Australia. With a Masters in <em>Molecular Biology</em> from The University of Queensland and a Bachelors degree in <em>Genetic Engineering</em> from SRM University, India, my academic journey has been driven by a profound interest in genetics, molecular biology, and biomedical research.</p>
+        </div> <br>
+        <div id="skillsection">
+        <h3 id="skills">Skills</h3>
+        <h4>Research Skills</h4>
+        <style> 
+            h4 {
+                color: rgb(125, 85, 177);
+                font-size: 20px;
+            }
+            li{
+                color: green;
+            }
+        </style>
+        <ul>
+            <li>Advanced Molecular Techniques</li>
+            <li>Cell Culture and Tissue Engineering</li>
+            <li>Microscopy and Imaging Analysis</li>
+        </ul>
+        <h4>Interpersonal Skills</h4>
+        <ul>
+            <li>Team Collaboration</li>
+            <li>Leadership and Mentoring</li>
+            <li>Effective Communication</li>
+        </ul>
+        <h4>Analytical skills</h4>
+        <ul>
+            <li>Data Analysis and Interpretation</li>
+            <li>Experimental Design and Optimization</li>
+            <li>Quantitative Analysis</li>
+        </ul>
+        <!--Accomplishment Section-->
+        <div id="accomplishmentsection">
+            <h3 id="accomplishments">Accomplishment</h3>
+            <style>
+                table, th, td {
+                    font-size: 20px;
+                    font-style: bold;
+                    color: navy;
+                    height: 40px;
+                    width: 100px;
+                    border: 2px solid #261a30 ;
+                    border-radius: 5px;
+                    border-collapse: collapse;
+                    padding: 10px
+                }
+            </style>
+            <table>
+                <tr>
+                    <th>Publication</th>
+                    <th>Awards</th>
+                    <th>Presentation</th>
+                </tr>
+                <tr> 
+                    <td>Your content</td>
+                    <td>Your content</td>
+                    <td>Your content</td>
+                </tr>
+            </table><br>
+            <h3>Try This Out</h3>
+            <a href="quiz index.html" target="_blank">Take the Portfolio Quiz!</a>
+        </div> <br>
+        <!--contactsection-->
+        <div id="contactsection">
+            <h3 id="contact">Contact</h3>
+            <a href="https://www.linkedin.com/in/udhaya-n-973a6abb/" target="_blank">LinkedIn</a>
+            <br>
+            <a href="https://research.qut.edu.au/cbt/people/udhaya-nedunchezhiyan/" target="_blank"> QUT Portfolio</a>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <meta name="viewport" content="width=device-width, user-scalable=no">
+            <nav class="topnav" id="portfolioTopnav">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#accomplishments">Accomplishments</a>
+                <a href="#contact">Contact</a>              
+                <a href="javascript:void(0);" class="icon" onclick="openMenu"><i class="fa fa-bars"></i></a>
+            </nav>
+            <br><br>
+        <form>
+            <style>
+            .contact-form {
+                 background: #fff;
+                 padding: 20px; 
+                 border-radius: 8px;
+                 box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                 width: 300px;
+                }
+            .form-group {
+                margin-bottom: 15px;
+            }
+            .form-group label {
+                display: block;
+                margin-bottom: 5px;
+                color: #333;
+            }
+            .form-group input {
+                width: 100%;
+                padding: 8px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+            button {
+                background: #007bff;
+                color: #fff;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover {
+                background: #0056b3;
+            }
+            </style>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Mobile Phone (Optional)</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+                <button id="submit">Submit</button>
+            <style>
+                #submit {
+                    background-color: #546e83;
+                    border: none;
+                    color: blueviolet;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 4px;
+                }
+            </style>
+        </form>
+        </div>
+        <script src="U:\Research\Projects\ihbi\regenerativemedicine\crl_general\Udhaya\E grad_Intro for Coding\nav.js"></script>
+        
+    </body>
+</html>

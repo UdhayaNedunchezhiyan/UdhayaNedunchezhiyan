@@ -1,0 +1,80 @@
+<title>
+    <h1>Take the Portfolio Quiz</h1>
+</title>
+<body>
+    <style>
+        body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.question{
+    font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+}
+.answers label{
+    display: block;
+}
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+	background-color: rgb(127, 164, 219);
+	color: #bb9393;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: rgb(198, 212, 208);
+}
+body {
+    background-image: url('https://res.cloudinary.com/cassyni/image/upload/q_auto/f_auto/v1/user-files/JR2pzyXUp6RfX2NYMBaFYS?_a=DAJAUVWIZAAB');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the color and transparency */
+}
+@media (max-width: 800px) {
+    /*CSS ruleset*/
+}
+.topnav .icon {
+    display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links. Show the icon that should open and close the nav (.icon) */
+@media only screen and (max-width: 600px) {
+    .topnav a {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media only screen and (max-width: 600px) {
+    .topna.responsive {
+        position: fixed;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+</style>
+    <h3>What have you learnt about Udhaya Nedunchezhiyan?</h3>
+    <div id="quiz"></div>
+
+    <button id="submit">Submit Quiz</button>
+
+    <div id="results"></div>
+
+    <script src="U:\Research\Projects\ihbi\regenerativemedicine\crl_general\Udhaya\E grad_Intro for Coding\quiz.js"></script>
+</body>
